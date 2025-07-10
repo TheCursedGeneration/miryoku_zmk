@@ -11,3 +11,4 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
       kconfig: '["CONFIG_ZMK_POINTING=y"]'
+      custom_config: '["#define ZMK_POINTING_DEFAULT_MOVE_VAL 1250\n#define ZMK_POINTING_DEFAULT_SCRL_VAL 65\n#define U_MOUSE_MOVE_EXPONENT 0\n#define U_MOUSE_MOVE_TIME 0\n#define U_MOUSE_MOVE_DELAY 0\n#define U_MOUSE_SCROLL_EXPONENT 0\n#define U_MOUSE_SCROLL_TIME 0\n#define U_MOUSE_SCROLL_DELAY 0"]'
